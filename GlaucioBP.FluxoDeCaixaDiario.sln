@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlaucioBP.FluxoDeCaixaDiario.Aplicacao", "GlaucioBP.FluxoDeCaixaDiario.Aplicacao\GlaucioBP.FluxoDeCaixaDiario.Aplicacao.csproj", "{9B4CCF10-1338-44EF-9872-E3F5FC2CEDD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlaucioBP.FluxoDeCaixaDiario.Dominio", "GlaucioBP.FluxoDeCaixaDiario.Dominio\GlaucioBP.FluxoDeCaixaDiario.Dominio.csproj", "{56873505-9F41-4AA2-A482-9CB0CA449159}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlaucioBP.FluxoDeCaixaDiario.Infraestrutura.Data", "GlaucioBP.FluxoDeCaixaDiario.Infraestrutura.Data\GlaucioBP.FluxoDeCaixaDiario.Infraestrutura.Data.csproj", "{1C30C77D-01CE-4374-ABFA-9F492750C24D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlaucioBP.FluxoDeCaixaDiario.Testes", "GlaucioBP.FluxoDeCaixaDiario.Testes\GlaucioBP.FluxoDeCaixaDiario.Testes.csproj", "{E58623B9-62E6-4B95-BB28-D83554D2DE77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlaucioBP.FluxoDeCaixaDiario.API2", "GlaucioBP.FluxoDeCaixaDiario.API2\GlaucioBP.FluxoDeCaixaDiario.API2.csproj", "{321B634B-AB10-4F57-A8C6-F116F2D5FC57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B4CCF10-1338-44EF-9872-E3F5FC2CEDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B4CCF10-1338-44EF-9872-E3F5FC2CEDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B4CCF10-1338-44EF-9872-E3F5FC2CEDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B4CCF10-1338-44EF-9872-E3F5FC2CEDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56873505-9F41-4AA2-A482-9CB0CA449159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56873505-9F41-4AA2-A482-9CB0CA449159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56873505-9F41-4AA2-A482-9CB0CA449159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56873505-9F41-4AA2-A482-9CB0CA449159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C30C77D-01CE-4374-ABFA-9F492750C24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C30C77D-01CE-4374-ABFA-9F492750C24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C30C77D-01CE-4374-ABFA-9F492750C24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C30C77D-01CE-4374-ABFA-9F492750C24D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E58623B9-62E6-4B95-BB28-D83554D2DE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E58623B9-62E6-4B95-BB28-D83554D2DE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E58623B9-62E6-4B95-BB28-D83554D2DE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E58623B9-62E6-4B95-BB28-D83554D2DE77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{321B634B-AB10-4F57-A8C6-F116F2D5FC57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{321B634B-AB10-4F57-A8C6-F116F2D5FC57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{321B634B-AB10-4F57-A8C6-F116F2D5FC57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{321B634B-AB10-4F57-A8C6-F116F2D5FC57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8E0461E-B836-4D36-B577-29EA91D3A71A}
+	EndGlobalSection
+EndGlobal
