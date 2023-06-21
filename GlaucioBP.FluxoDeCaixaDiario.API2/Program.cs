@@ -25,8 +25,13 @@ builder.Services.AddScoped<ILancamentoService, LancamentoService>();
 builder.Services.AddScoped<ISaldoDiarioService, SaldoDiarioService>();
 
 //Repository
+//SQL Server Local
+//builder.Services.AddDbContext<FluxoDeCaixaDiarioContexto>(options =>
+//   options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+//);
+//DOCKER
 builder.Services.AddDbContext<FluxoDeCaixaDiarioContexto>(options =>
-   options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+   options.UseSqlServer(builder.Configuration.GetConnectionString("FluxoDeCaixaDiarioContexto"))
 );
 builder.Services.AddScoped<ILancamentoRepository, LancamentoRepository>();
 

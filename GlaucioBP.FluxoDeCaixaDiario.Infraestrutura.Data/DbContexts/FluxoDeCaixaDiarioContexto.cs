@@ -22,8 +22,11 @@
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(
-                "Data Source=LAPTOP-521E2CEI\\MSSQLEXPRESS;Database=FdCaixa;Trusted_Connection=True;TrustServerCertificate=True");
+                //SQL Server local
+                //optionsBuilder.UseSqlServer("Data Source=LAPTOP-521E2CEI\\MSSQLEXPRESS;Database=FdCaixa;Trusted_Connection=True;TrustServerCertificate=True");
+
+                //DOCKER
+                optionsBuilder.UseSqlServer("Server=db;Database=FluxoDeCaixaDiarioDB;User=sa;Password=123Mudar!");                
             }
         }
 
